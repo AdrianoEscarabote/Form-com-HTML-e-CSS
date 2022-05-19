@@ -1,0 +1,98 @@
+* {
+    padding: auto;
+    margin: auto;
+}
+body {
+    background: linear-gradient(68.15deg, #02a2ffc2 16.62%, #e204f7 85.61%)
+}
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.field {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+h2 {
+    font-weight: 925;
+    font-size: 32px;
+    text-align: center;
+    margin: 50px 0;
+}
+.username {
+    font-weight: 600;
+}
+.username [type="text"] {
+    margin: 15px 0;
+    width: 380px;
+    height: 25px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.password {
+    font-weight: 600;
+}
+.password [type="password"] {
+    width: 380px;
+    height: 25px;
+    margin: 15px 0;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.forgotpsw a{
+    text-align: right;
+    padding-left: 260px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: black;
+}
+.forgotpsw a:hover {
+    color: black; 
+    text-decoration: none;
+}
+.input [type="submit"] {
+    margin: 25px 0;
+    border-radius: 20px;
+    border:none;
+    outline:none;
+    color: white;
+    background: linear-gradient(68.15deg, #02a2ffc2 16.62%, #e204f7 85.61%);
+    width: 300px;
+    height: 32px;
+    font-weight: 900;
+}
+.imgicon {
+    padding-bottom: 54px;
+}
+.imgicon p {
+    font-size: 14px;
+    padding: 20px 0 40px 0;
+}
+.signup a {
+    color: black;
+    border:none;
+    outline:none;
+    width: 300px;
+    height: 32px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.signup a:hover {
+    color: #02a2ffc2; 
+}
+
